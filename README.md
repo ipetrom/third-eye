@@ -4,8 +4,7 @@
 
 **An extra pair of eyes for white cane users: warns about obstacles at chest and head height, and answers questions about the surroundings by voice.**
 
-<!-- TODO: replace docs/assets/preview.png with a real product shot / HUD screenshot -->
-<img src="docs/assets/preview.png" alt="Third Eye preview" width="820">
+<img src="docs/assets/preview.jpg" alt="Third Eye preview" width="820">
 
 <br>
 
@@ -14,9 +13,8 @@
 ![Sensor](https://img.shields.io/badge/iPhone-LiDAR%20%C2%B7%20Record3D-555555?logo=apple&logoColor=white)
 ![YOLO-World](https://img.shields.io/badge/YOLO--World-Ultralytics-111F68)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.8%2B-5C3EE8?logo=opencv&logoColor=white)
-![LLM](https://img.shields.io/badge/OpenRouter-GPT--4o-412991?logo=openai&logoColor=white)
+![LLM](https://img.shields.io/badge/OpenRouter-Vision%20LLM-412991)
 ![Voice](https://img.shields.io/badge/Deepgram-Voice%20Agent-13EF93)
-![Tests](https://img.shields.io/badge/tests-149%20passed-2EA44F?logo=pytest&logoColor=white)
 ![HackYeah](https://img.shields.io/badge/HackYeah-2026%20%C2%B7%20Krak%C3%B3w-E4405F)
 ![Status](https://img.shields.io/badge/Status-Hackathon%20Prototype-F28C28)
 
@@ -28,10 +26,11 @@
 
 ## Demo
 
-<!-- TODO: replace VIDEO_ID with the YouTube video id and docs/assets/demo-thumbnail.png with a real thumbnail -->
-[![Watch the Third Eye demo](docs/assets/demo-thumbnail.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![Third Eye demo: 9 s preview, click to watch the full video](docs/assets/demo-preview.gif)](https://youtu.be/QlNLSiorAUE)
 
-*A 3½-minute walkthrough: the problem, how Third Eye works, and live footage of a cane user walking with the prototype.*
+▶ **[Watch the full demo on YouTube](https://youtu.be/QlNLSiorAUE)** · 3:26
+
+*A walkthrough of the problem, how Third Eye works, and real recordings from the prototype.*
 
 ---
 
@@ -39,9 +38,9 @@
 
 A white cane is excellent at what it was designed for: the ground in front of the user. Everything above waist height is invisible to it. Open truck tailgates, low branches, signposts, shelves and half-open windows are exactly the obstacles a cane sweeps underneath.
 
-This is not a rare edge case. In a survey of **307 blind and visually impaired people** (Manduchi & Kurniawan, UC Santa Cruz), **13%** reported a head-level accident at least once a month, and **23%** of those accidents required medical care.
+This is not a rare edge case. In a survey of **307 blind and visually impaired people** (Manduchi & Kurniawan, UC Santa Cruz [[1]](#sources)), **13%** reported a head-level accident at least once a month, and **23%** of those accidents required medical care.
 
-Existing electronic aids do address it, but at a price: a dedicated smart cane such as the WeWALK Smart Cane 2 costs around **£849**, on top of a phone the user already owns.
+Existing electronic aids do address it, but at a price: a dedicated smart cane such as the WeWALK Smart Cane 2 costs around **£849** [[2]](#sources), on top of a phone the user already owns.
 
 ## The solution
 
@@ -128,6 +127,11 @@ python -m pytest -q
 - A trigger on the cane handle instead of a keyboard key
 - More languages for the voice layer (currently English)
 - Field testing with cane users and orientation & mobility instructors
+
+## Sources
+
+1. R. Manduchi and S. Kurniawan, *Mobility-Related Accidents Experienced by People with Visual Impairment*, UC Santa Cruz technical report UCSC-SOE-10-24: [PDF](https://tr.soe.ucsc.edu/sites/default/files/technical-reports/UCSC-SOE-10-24.pdf). Source of the head-level accident statistics (survey of 307 people).
+2. WeWALK Smart Cane 2 AI, RNIB Shop: [product page](https://shop.rnib.org.uk/products/wewalk-smart-cane-2-ai). Source of the smart cane price (£849) used as a reference point.
 
 ## Team
 

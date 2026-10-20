@@ -45,3 +45,6 @@ logs.txt
 *.log
 .superpowers/
 .claude/
+
+# Source video (too large for git; lives on YouTube)
+docs/assets/*.mp4
