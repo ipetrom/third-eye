@@ -137,10 +137,4 @@ python -m pytest -q
 
 Built at **HackYeah 2026** in Kraków (Smart City track) by team **Beszketnyky**.
 
-<!-- TODO: add team members and their GitHub profiles -->
-
-## License
-
-<!-- TODO: choose a license (e.g. MIT) and add a LICENSE file -->
-Not licensed yet. All rights reserved by the authors.
-# hackyeah-hackathon-beszketnyky
+Hanna Ramanouskaya, Roman Kiewlak, Dzmitry Kuzma, Nikita Vydrankou, Davyd Antoniuk, Petro Melnyk
